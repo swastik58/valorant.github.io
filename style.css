@@ -1,0 +1,168 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizzing: border-box;
+}
+
+.header
+{	
+	height: 100vh;
+	text-align: center;
+	font-style: italic;
+	font-size: bold;
+	font-size: 90px;
+	background-image: url("valorant-4k-2020-dx.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: red;
+}
+.header h1
+{
+	padding-top: 38vh;
+}
+
+.agents
+{
+	margin-top: 50px;
+	padding-top:25px;
+	text-align: center;
+	font-style: italic;
+	font-size: bold;
+	background-color: black;
+	padding-bottom: 25px;
+}
+.agents h2
+{
+	font-size: 40px;
+	word-spacing: 10px;
+	color: white;
+}
+
+.agents h4
+{
+	word-spacing: 20px;
+	font-size: 25px;
+	color: white;
+}
+
+.carousel-container
+{
+	padding-top: 40px;
+	width: 45%;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel-slide
+{
+	display:flex;	
+	width: 100px;
+	height: 500px;
+}
+
+#prevBtn
+{
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	left: 5%;
+	font-size: 30px;
+	color: white;
+	opacity: 1;
+	cursor: pointer;
+}
+
+#nextBtn
+{
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	right: 5%;
+	font-size: 30px;
+	color: white;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.maps
+{
+	margin-top: 50px;
+	padding-top:0px;
+	text-align: center;
+	font-style: italic;
+	font-size: bold;
+	background-color: black;
+	padding-bottom: 25px;
+}
+
+.maps h2
+{
+	margin-top: 50px;
+	padding-top: 25px;
+	font-size: 40px;
+	word-spacing: 10px;
+	color: white;
+}
+
+.maps h4
+{
+	word-spacing: 350px;
+	font-size: 25px;
+	color: white;
+}
+
+hr
+{
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+	margin-left: auto;
+	margin-right: auto;
+  border-width: 5px;
+}
+
+
+.end
+{
+	text-align: center;
+	padding-top: 30px;
+	word-spacing: 5px;
+	font-style: italic;	
+	font-weight: 20px;
+	font-weight: bold;
+}
+
+.footer
+{
+	padding-top: 30px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.column
+{
+	box-sizing: border-box;
+	float: left;
+	width: 20%;
+	padding: 5px;
+}
+.row::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.fa-color
+{
+	color: red;
+}
+
+.fa-color1
+{
+	color: green;
+}
